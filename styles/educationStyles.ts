@@ -1,7 +1,7 @@
 import { Styles } from './typeStyle'
 
 export const styles: Styles = {
-   bioWrapper: {
+   eduWrapper: {
       display: 'flex',
       justifyContent: 'center',
       alignItems: 'center',
@@ -10,27 +10,42 @@ export const styles: Styles = {
          md: 10,
       },
    },
+   bodyWrapper: {
+      pr: 3,
+   },
+   schoolWrapper: {
+      py: 2,
+   },
+   uniTitle: {
+      fontSize: {
+         xs: '3.5vmin',
+         sm: '4vmin',
+         md: '4.5vmin',
+      },
+      py: 1,
+   },
+   chip: {
+      ml: 1,
+   },
    titleWrapper: {
       display: 'flex',
       justifyContent: 'center',
       alignItems: 'center',
    },
    title: {
-      fontSize: '11vmin',
+      fontSize: '9vmin',
       textAlign: 'center',
    },
    divider: {
       height: '20vmin',
-      ml: {
+      mr: {
          xs: 1,
          md: 2,
       },
       width: 15,
       bgcolor: (theme) => theme.palette.primary.main,
    },
-   bodyWrapper: {
-      pl: 3,
-   },
+
    body: {
       fontSize: '3.5vmin',
    },

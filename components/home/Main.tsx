@@ -1,14 +1,14 @@
-import { Container, Grid, Box, Typography, Button } from '@mui/material'
-import { styles } from '@styles/homeStyles'
+import { Grid, Box, Typography, Button } from '@mui/material'
+import { styles } from '@styles/mainStyles'
 import Image from 'next/image'
 import programming from '@assets/programming_pic.svg'
 
 export default function Main() {
    return (
-      <>
+      <Box sx={styles.root} id="main">
          <Grid container alignItems="center" sx={styles.grid}>
             <Grid item xs={12} md={6} py={2}>
-               <Box sx={styles.wrapper} mt={5}>
+               <Box sx={styles.wrapper}>
                   <Box py={0.5}>
                      <Typography variant="h3">Hello ...!</Typography>
                   </Box>
@@ -54,6 +54,6 @@ export default function Main() {
                </Box>
             </Grid>
          </Grid>
-      </>
+      </Box>
    )
 }

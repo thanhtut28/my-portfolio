@@ -11,10 +11,16 @@ export default class MyDocument extends Document {
             <Head>
                {/* PWA primary color */}
                <meta name="theme-color" content={theme.palette.primary.main} />
-               <link rel="preconnect" href="https://fonts.googleapis.com" />
+               {/* <link rel="preconnect" href="https://fonts.googleapis.com" />
                <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
                <link
                   href="https://fonts.googleapis.com/css2?family=Righteous&display=swap"
+                  rel="stylesheet"
+               /> */}
+               <link rel="preconnect" href="https://fonts.googleapis.com" />
+               <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
+               <link
+                  href="https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@400;500;700;800&display=swap"
                   rel="stylesheet"
                />
             </Head>

@@ -12,11 +12,13 @@ let theme = createTheme({
       },
    },
    typography: {
-      fontFamily: `'Righteous', cursive`,
+      // fontFamily: `'Righteous', cursive`,
+      fontFamily: `'M PLUS Rounded 1c', sans-serif`,
       fontSize: 14,
-      fontWeightLight: 300,
-      fontWeightRegular: 400,
-      fontWeightMedium: 500,
+      fontWeightLight: 400,
+      fontWeightRegular: 500,
+      fontWeightMedium: 700,
+      fontWeightBold: 800,
    },
 })
 

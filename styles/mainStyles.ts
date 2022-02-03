@@ -1,13 +1,13 @@
-import { SxProps, Theme } from '@mui/system'
-
-interface Styles {
-   [prop: string]: SxProps<Theme>
-}
+import { Styles } from './typeStyle'
 
 export const styles: Styles = {
    // first column
+   root: {
+      pt: 5,
+      pb: 5,
+   },
    grid: {
-      py: { xs: 5, md: 7, lg: 10 },
+      py: { xs: 2, md: 4, lg: 5 },
    },
    wrapper: { py: 3, maxWidth: { xs: 300, sm: 450, md: 1000 }, mx: { xs: 'auto', md: '' } },
    name: { color: 'primary.main', fontWeight: 'bold' },

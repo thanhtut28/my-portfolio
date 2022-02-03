@@ -1,12 +1,16 @@
 import { Container } from '@mui/material'
 import Main from '@components/home/Main'
-import Bio from '@components/home/Bio'
+import AboutMe from '@components/home/AboutMe'
+import Skills from '@components/home/Skills'
+import Projects from '@components/home/Projects'
 
 export default function Home() {
    return (
       <Container>
          <Main />
-         <Bio />
+         <AboutMe />
+         <Skills />
+         <Projects />
       </Container>
    )
 }
