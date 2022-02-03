@@ -49,6 +49,7 @@ export default function Main() {
                         height={1}
                         alt="profile"
                         quality={100}
+                        priority
                      />
                   </Box>
                </Box>
