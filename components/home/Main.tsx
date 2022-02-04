@@ -47,9 +47,7 @@ export default function Main() {
             <Grid item xs={12} md={6} py={2}>
                <Box px={1}>
                   <Box sx={styles.imageWrapper}>
-                     <Box
-                        borderRadius={1}
-                        component={Image}
+                     <Image
                         src={programming}
                         layout="responsive"
                         width={1}

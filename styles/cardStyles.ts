@@ -1,7 +1,8 @@
 import { Styles } from './typeStyle'
 
 export const styles: Styles = {
-   root: {
+   root: {},
+   card: {
       width: 400,
       maxWidth: '80%',
       //   p: 1,
