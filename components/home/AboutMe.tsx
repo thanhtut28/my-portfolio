@@ -5,7 +5,7 @@ import Bio from './Bio'
 import Education from './Eductaion'
 
 export default function AboutMe() {
-   const [isBio, setIsBio] = useState(false)
+   const [isBio, setIsBio] = useState(true)
 
    const left = `${isBio ? '2%' : '50%'}`
 
