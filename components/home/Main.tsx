@@ -2,6 +2,7 @@ import { Grid, Box, Typography, Button } from '@mui/material'
 import { styles } from '@styles/mainStyles'
 import Image from 'next/image'
 import programming from '@assets/programming_pic.svg'
+import { NextLinkComposed } from '@components/ui/Link'
 
 export default function Main() {
    return (
@@ -31,8 +32,14 @@ export default function Main() {
                      </Typography>
                   </Box>
                   <Box>
-                     <Button variant="contained" color="primary">
-                        Download CV
+                     <Button
+                        variant="contained"
+                        color="primary"
+                        component={NextLinkComposed}
+                        to="https://github.com/thanhtut28/my-portfolio"
+                        target="_blank"
+                     >
+                        Source Code
                      </Button>
                   </Box>
                </Box>

@@ -18,7 +18,7 @@ export const projects: Project[] = [
    },
    {
       title: 'Rose Streaming Service',
-      body: `Streaming Web Application with myanmar and english subtitles developed by me and my backend dev friend. It has two plans, Free and Premium. The Premium plan offer many features such as 'History', 'Resume Play', 'faster servers' and many more. Tech Stacks - Next, Typescript, Material Ui, Meili Search, Apollo Graphql, Strapi, Firebase, PostgresSQL `,
+      body: `Streaming Web Application with myanmar and english subtitles developed by me and my backend dev friend. It has two plans, Free and Premium. The Premium plan offers many features such as 'History', 'Resume Play', 'faster servers' and many more. Tech Stacks - Next, Typescript, Material Ui, Meili Search, Apollo Graphql, Strapi, Firebase, PostgresSQL `,
       link: 'https://rosestream.watch',
       image: roseStream,
    },

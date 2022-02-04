@@ -23,7 +23,7 @@ export default function Education({ show }: EduProps) {
                   <Box sx={styles.schoolWrapper}>
                      <Typography variant="h6" sx={styles.uniTitle}>
                         University of Technology(Yatanarpon Cyber City)
-                        <Chip label="2015 - Now" sx={styles.chip}></Chip>
+                        <Chip label="2015 - Present" sx={styles.chip}></Chip>
                      </Typography>
                      <Typography variant="subtitle2" color="textSecondary">
                         5TH BE (Information and Communication Technology)
