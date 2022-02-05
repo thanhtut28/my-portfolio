@@ -49,6 +49,11 @@ export const styles: Styles = {
             duration: theme.transitions.duration.standard,
          }),
       zIndex: 10,
+      // boxShadow: (theme) => `0px 0px 2px 3px ${theme.palette.primary.main}`,
+
+      '&:hover': {
+         boxShadow: (theme) => `0px 0px 8px 0.5px ${theme.palette.primary.main}`,
+      },
    },
    switchTitle: {
       zIndex: 20,
