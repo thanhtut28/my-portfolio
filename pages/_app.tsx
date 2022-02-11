@@ -22,6 +22,7 @@ export default function MyApp(props: MyAppProps) {
          <Head>
             <title>Than Htut Aung</title>
             <meta name="viewport" content="initial-scale=1, width=device-width" />
+            <meta property="og:image" content="./assets/rosestream.png" key="og-image" />
          </Head>
          <ThemeProvider theme={theme}>
             {/* CssBaseline kickstart an elegant, consistent, and simple baseline to build upon. */}
