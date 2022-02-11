@@ -16,7 +16,7 @@ export default class MyDocument extends Document {
                <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
                <link rel="manifest" href="/site.webmanifest" />
                <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5" />
-
+               <meta property="og:image" content="./assets/rosestream.png" />
                <meta name="theme-color" content={theme.palette.secondary.main} />
                {/* <link rel="preconnect" href="https://fonts.googleapis.com" />
                <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
