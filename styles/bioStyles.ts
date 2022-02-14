@@ -16,11 +16,14 @@ export const styles: Styles = {
       alignItems: 'center',
    },
    title: {
-      fontSize: '11vmin',
+      fontSize: (theme) => ({
+         xs: theme.typography.h3.fontSize,
+         md: theme.typography.h1.fontSize,
+      }),
       textAlign: 'center',
    },
    divider: {
-      height: '20vmin',
+      height: 150,
       ml: {
          xs: 1,
          md: 2,
@@ -32,6 +35,11 @@ export const styles: Styles = {
       pl: 3,
    },
    body: {
-      fontSize: '3.5vmin',
+      fontSize: (theme) => ({
+         xs: theme.typography.body2.fontSize,
+         sm: theme.typography.body1.fontSize,
+         lg: theme.typography.h6.fontSize,
+         xl: theme.typography.h5.fontSize,
+      }),
    },
 }

@@ -17,11 +17,11 @@ export const styles: Styles = {
       py: 2,
    },
    uniTitle: {
-      fontSize: {
-         xs: '3.5vmin',
-         sm: '4vmin',
-         md: '4.5vmin',
-      },
+      fontSize: (theme) => ({
+         xs: theme.typography.body1.fontSize,
+         md: theme.typography.h6.fontSize,
+         lg: theme.typography.h4.fontSize,
+      }),
       py: 1,
    },
    chip: {
@@ -33,11 +33,14 @@ export const styles: Styles = {
       alignItems: 'center',
    },
    title: {
-      fontSize: '9vmin',
+      fontSize: (theme) => ({
+         xs: theme.typography.h3.fontSize,
+         md: theme.typography.h1.fontSize,
+      }),
       textAlign: 'center',
    },
    divider: {
-      height: '20vmin',
+      height: 150,
       mr: {
          xs: 1,
          md: 2,
@@ -47,6 +50,11 @@ export const styles: Styles = {
    },
 
    body: {
-      fontSize: '3.5vmin',
+      fontSize: (theme) => ({
+         xs: theme.typography.body2.fontSize,
+         sm: theme.typography.body1.fontSize,
+         lg: theme.typography.h6.fontSize,
+         xl: theme.typography.h5.fontSize,
+      }),
    },
 }
