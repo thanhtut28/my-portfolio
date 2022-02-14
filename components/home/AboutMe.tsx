@@ -9,6 +9,19 @@ export default function AboutMe() {
 
    const left = `${isBio ? '2%' : '50%'}`
 
+   const handleChange = async () => {
+      setIsBio((prev) => !prev)
+
+      // for tracking people who clicked my website xD
+      await fetch('https://tracker-9644a-default-rtdb.firebaseio.com/clicks.json', {
+         method: 'POST',
+         headers: {
+            'Content-type': 'application/json',
+         },
+         body: JSON.stringify({ date: new Date() }),
+      })
+   }
+
    return (
       <Box sx={styles.root} id="about">
          <Typography variant="h3" sx={styles.header}>
@@ -22,7 +35,7 @@ export default function AboutMe() {
                component="input"
                type="checkbox"
                checked={isBio}
-               onChange={() => setIsBio((prev) => !prev)}
+               onChange={handleChange}
                id="aboutToggle"
                sx={styles.checkBox}
             ></Box>
